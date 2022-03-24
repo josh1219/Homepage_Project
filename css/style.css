@@ -188,7 +188,7 @@ section{
 }
 
 .about .row .image{
-    flex:1 1 45rem;
+    flex:1 1 10rem;
 }
 
 .about .row .image img{
@@ -232,6 +232,10 @@ section{
     width: 100%;
 }
 
+.menu.row.column.image{
+    height: 100%
+}
+
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -249,8 +253,8 @@ section{
 }
 
 .products .box-container .box .image img{
-    width: 1200px;
-    height: 1003px;
+    width: 70%;
+    height: 70%;
 }
 
 .products .box-container .box .content h3{
